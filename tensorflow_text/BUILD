@@ -34,7 +34,6 @@ py_library(
 cc_library(
     name = "tensorflow_text_ops",
     alwayslink = 1,
-    srcs = ["main.cc"], # todo: Figure out how to remove this workaround without bazel complaining about no new artifacts
     deps = [
         ":constrained_sequence_op",
         ":normalize_ops_cc",
