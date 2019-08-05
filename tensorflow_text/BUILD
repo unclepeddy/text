@@ -163,8 +163,7 @@ cc_library(
         "@com_google_absl//absl/strings",
         "@com_google_absl//absl/types:optional",
         "@com_google_absl//absl/types:span",
-        "@icu//:common",
-        "@icu//:headers",
+        "@icu_org//:common",
         "@org_tensorflow//tensorflow/core:framework",
     ],
 )
@@ -304,7 +303,7 @@ cc_library(
         "@com_google_absl//absl/strings",
         "@com_google_absl//absl/types:optional",
         "@com_google_absl//absl/types:span",
-        "@icu//:common",
+        "@icu_org//:common",
         "@org_tensorflow//tensorflow/core:framework",
     ],
 )
@@ -341,7 +340,7 @@ cc_library(
     alwayslink = 1,
     deps = [
         "@com_google_absl//absl/strings",
-        "@icu//:common",
+        "@icu_org//:common",
         "@org_tensorflow//tensorflow/core:framework",
     ],
 )
@@ -448,7 +447,7 @@ cc_library(
     ],
     alwayslink = 1,
     deps = [
-        "@icu//:common",
+        "@icu_org//:common",
         "@org_tensorflow//tensorflow/core:framework",
     ],
 )
@@ -544,7 +543,7 @@ cc_library(
     ],
     alwayslink = 1,
     deps = [
-        "@icu//:common",
+        "@icu_org//:common",
         "@org_tensorflow//tensorflow/core:framework",
     ],
 )
@@ -611,7 +610,7 @@ cc_library(
         "@com_google_absl//absl/strings",
         "@com_google_absl//absl/types:optional",
         "@com_google_absl//absl/types:span",
-        "@icu//:common",
+        "@icu_org//:common",
         "@org_tensorflow//tensorflow/core:framework",
     ],
 )
