@@ -157,7 +157,7 @@ cc_library(
     ],
     alwayslink = 1,
     deps = [
-        "@icu_org//data:icu_normalization_data_cc",
+        "//third_party/icu/data:icu_normalization_data",
         "@com_google_absl//absl/base:core_headers",
         "@com_google_absl//absl/container:inlined_vector",
         "@com_google_absl//absl/strings",
